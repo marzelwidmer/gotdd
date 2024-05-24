@@ -2,7 +2,6 @@ package customer
 
 import "testing"
 
-
 func TestPerson(t *testing.T) {
 	person := Person{Name: "John", Age: 30}
 	if person.Name != "John" {
